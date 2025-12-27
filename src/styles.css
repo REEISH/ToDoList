@@ -1,0 +1,119 @@
+#main {
+    width: 100vw;
+    height: 100vh;
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    border: solid;
+    border-radius: 3vh 3vh 3vh 3vh;
+    user-select: none;
+}
+
+#left {
+    width: 20%;
+    height: 100%;
+    border-radius: 3vh 0vh 0vh 3vh;
+    background-color: rgb(134, 128, 128);
+}
+
+#leftmenu {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width: 90%;
+    margin-top: 10%;
+    margin-left: 5%;
+    border-radius: 3vh 3vh 3vh 3vh;
+}
+
+.item1 {
+    display: flex;
+    flex-direction: row;
+    height: 15%;
+    width: 100%;
+    background-color: black;
+    border-radius: 3vh 3vh 0 0;
+}
+
+.II1 {
+    display: flex;
+    width: 80%;
+    height: 100%;
+    align-items: center;
+    margin-left: 10%;
+    font-size: 3vh;
+    font-weight: 700;
+    color: white;
+}
+
+
+.II2 {
+    display: flex;
+    width: 20%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: 3vh;
+    font-weight: 700;
+    color: white;
+}
+
+.item2 {
+    display: flex;
+    flex-direction: column;
+    height: 40%;
+    width: 100%;
+    background-color: black;
+    border-radius: 0 0 3vh 3vh;
+}
+
+.II3,
+.II4,
+.II5 {
+    display: flex;
+    width: 80%;
+    height: 25%;
+    align-items: center;
+    margin-left: 10%;
+    font-size: 2vh;
+    font-weight: 700;
+    color: white;
+}
+
+#middle {
+    width: 60%;
+    height: 100%;
+    background-color: rgb(216, 76, 76);
+    display: flex;
+    flex-direction: column;
+}
+
+#top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 10%;
+    background-color: rgb(2, 143, 96);
+    font-size: 7vh;
+    font-weight: 700;
+    color: white;
+}
+
+#content {
+    display: flex;
+    width: 100%;
+    height: 90%;
+    flex-direction: column;
+    background-color: rgb(218, 17, 17);
+    align-content: center;
+}
+
+#right {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0vh 3vh 3vh 0vh;
+    background-color: rgb(134, 128, 128);
+}
