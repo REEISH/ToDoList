@@ -5,6 +5,10 @@ on:
     branches:
       - main # Triggers the workflow on push to the main branch
 
+permissions:
+  id-token: write
+  contents: read # Add other necessary permissions here
+
 jobs:
   build:
     runs-on: ubuntu-latest
