@@ -1,1 +1,3 @@
 # ToDoList
+
+JavaScript Practice Session
